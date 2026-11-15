@@ -89,3 +89,12 @@ window.addEventListener('storage', event => {
   if (event.key === favoritesKey || event.key === null) { favorites = parseFavorites(event.newValue); renderFavorites(); }
   if (event.key === 'kegillion-sidebar-collapsed' || event.key === null) applyCollapsed(event.newValue === 'true');
 });
+
+const updatesPause = document.querySelector('[data-updates-pause]');
+updatesPause?.addEventListener('click', () => {
+  const paused = updatesPause.closest('.euro-updates').classList.toggle('updates-paused');
+  updatesPause.setAttribute('aria-pressed', String(paused));
+  updatesPause.setAttribute('aria-label', paused ? 'Resume updates' : 'Pause updates');
+  updatesPause.title = paused ? 'Resume updates' : 'Pause updates';
+  updatesPause.textContent = paused ? '▶' : 'Ⅱ';
+});
