@@ -2521,7 +2521,9 @@
       },
       {
         "text": "Water bottle",
-        "aliases": [],
+        "aliases": [
+          "reusable water bottle"
+        ],
         "popularity": 0,
         "explanation": "Water bottle fits the category requested by this prompt. Its 0 commonness score is an editorial starting weight, not a measured audience count."
       }
@@ -4471,7 +4473,9 @@
     "answers": [
       {
         "text": "Water bottle",
-        "aliases": [],
+        "aliases": [
+          "reusable water bottle"
+        ],
         "popularity": 100,
         "explanation": "Water bottle fits the category requested by this prompt. Its 100 commonness score is an editorial starting weight, not a measured audience count."
       },
@@ -4489,13 +4493,20 @@
       },
       {
         "text": "Student ID",
-        "aliases": [],
+        "aliases": [
+          "student id card",
+          "student identification",
+          "ID card"
+        ],
         "popularity": 50,
         "explanation": "Student ID fits the category requested by this prompt. Its 50 commonness score is an editorial starting weight, not a measured audience count."
       },
       {
         "text": "Headphones",
-        "aliases": [],
+        "aliases": [
+          "headphone",
+          "headset"
+        ],
         "popularity": 20,
         "explanation": "Headphones fits the category requested by this prompt. Its 20 commonness score is an editorial starting weight, not a measured audience count."
       },
@@ -5987,7 +5998,9 @@
       },
       {
         "text": "Snare drum",
-        "aliases": [],
+        "aliases": [
+          "snare"
+        ],
         "popularity": 40,
         "explanation": "Snare drum fits the category requested by this prompt. Its 40 commonness score is an editorial starting weight, not a measured audience count."
       },
@@ -9383,7 +9396,10 @@
       },
       {
         "text": "Microphone",
-        "aliases": [],
+        "aliases": [
+          "mic",
+          "mike"
+        ],
         "popularity": 50,
         "explanation": "Microphone fits the category requested by this prompt. Its 50 commonness score is an editorial starting weight, not a measured audience count."
       },
@@ -10861,7 +10877,9 @@
     "answers": [
       {
         "text": "Pretzels",
-        "aliases": [],
+        "aliases": [
+          "pretzel"
+        ],
         "popularity": 100,
         "explanation": "Pretzels fits the category requested by this prompt. Its 100 commonness score is an editorial starting weight, not a measured audience count."
       },
@@ -10879,7 +10897,9 @@
       },
       {
         "text": "Crackers",
-        "aliases": [],
+        "aliases": [
+          "cracker"
+        ],
         "popularity": 40,
         "explanation": "Crackers fits the category requested by this prompt. Its 40 commonness score is an editorial starting weight, not a measured audience count."
       },

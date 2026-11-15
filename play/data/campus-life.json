@@ -144,7 +144,10 @@
       },
       {
         "text": "assignment deadlines",
-        "aliases": [],
+        "aliases": [
+          "assignment due dates",
+          "due dates"
+        ],
         "popularity": 50,
         "explanation": "assignment deadlines fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -156,7 +159,9 @@
       },
       {
         "text": "office hours",
-        "aliases": [],
+        "aliases": [
+          "instructor office hours"
+        ],
         "popularity": 0,
         "explanation": "office hours fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       }
@@ -282,7 +287,10 @@
       },
       {
         "text": "sticky notes",
-        "aliases": [],
+        "aliases": [
+          "post it notes",
+          "post its"
+        ],
         "popularity": 20,
         "explanation": "sticky notes fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -302,7 +310,10 @@
     "answers": [
       {
         "text": "flashcards",
-        "aliases": [],
+        "aliases": [
+          "flash cards",
+          "flashcard"
+        ],
         "popularity": 100,
         "explanation": "flashcards fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -320,7 +331,9 @@
       },
       {
         "text": "study group",
-        "aliases": [],
+        "aliases": [
+          "study groups"
+        ],
         "popularity": 40,
         "explanation": "study group fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -616,13 +629,18 @@
       },
       {
         "text": "microphone",
-        "aliases": [],
+        "aliases": [
+          "mic",
+          "mike"
+        ],
         "popularity": 90,
         "explanation": "microphone fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "projector",
-        "aliases": [],
+        "aliases": [
+          "video projector"
+        ],
         "popularity": 55,
         "explanation": "projector fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -1094,19 +1112,27 @@
     "answers": [
       {
         "text": "notebook",
-        "aliases": [],
+        "aliases": [
+          "notepad",
+          "notebooks"
+        ],
         "popularity": 100,
         "explanation": "notebook fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "laptop",
-        "aliases": [],
+        "aliases": [
+          "laptop computer"
+        ],
         "popularity": 95,
         "explanation": "laptop fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "headphones",
-        "aliases": [],
+        "aliases": [
+          "headphone",
+          "headset"
+        ],
         "popularity": 70,
         "explanation": "headphones fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -1118,7 +1144,9 @@
       },
       {
         "text": "water bottle",
-        "aliases": [],
+        "aliases": [
+          "reusable water bottle"
+        ],
         "popularity": 5,
         "explanation": "water bottle fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -1846,7 +1874,10 @@
     "answers": [
       {
         "text": "registrar",
-        "aliases": [],
+        "aliases": [
+          "registrar office",
+          "registrar's office"
+        ],
         "popularity": 100,
         "explanation": "registrar fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -2638,13 +2669,17 @@
     "answers": [
       {
         "text": "microwave",
-        "aliases": [],
+        "aliases": [
+          "microwave oven"
+        ],
         "popularity": 100,
         "explanation": "microwave fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "refrigerator",
-        "aliases": [],
+        "aliases": [
+          "fridge"
+        ],
         "popularity": 99,
         "explanation": "refrigerator fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -3132,7 +3167,9 @@
       },
       {
         "text": "water bottle",
-        "aliases": [],
+        "aliases": [
+          "reusable water bottle"
+        ],
         "popularity": 90,
         "explanation": "water bottle fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -3144,7 +3181,10 @@
       },
       {
         "text": "notebook",
-        "aliases": [],
+        "aliases": [
+          "notepad",
+          "notebooks"
+        ],
         "popularity": 30,
         "explanation": "notebook fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -3478,7 +3518,9 @@
     "answers": [
       {
         "text": "library",
-        "aliases": [],
+        "aliases": [
+          "campus library"
+        ],
         "popularity": 100,
         "explanation": "library fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -3610,7 +3652,9 @@
     "answers": [
       {
         "text": "water bottle",
-        "aliases": [],
+        "aliases": [
+          "reusable water bottle"
+        ],
         "popularity": 100,
         "explanation": "water bottle fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -3698,7 +3742,9 @@
     "answers": [
       {
         "text": "library",
-        "aliases": [],
+        "aliases": [
+          "campus library"
+        ],
         "popularity": 100,
         "explanation": "library fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -3836,7 +3882,9 @@
       },
       {
         "text": "internet",
-        "aliases": [],
+        "aliases": [
+          "internet connection"
+        ],
         "popularity": 99,
         "explanation": "internet fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -3918,7 +3966,9 @@
     "answers": [
       {
         "text": "cutting board",
-        "aliases": [],
+        "aliases": [
+          "chopping board"
+        ],
         "popularity": 100,
         "explanation": "cutting board fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -3936,19 +3986,25 @@
       },
       {
         "text": "colander",
-        "aliases": [],
+        "aliases": [
+          "pasta strainer"
+        ],
         "popularity": 30,
         "explanation": "colander fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "measuring cup",
-        "aliases": [],
+        "aliases": [
+          "measuring cups"
+        ],
         "popularity": 10,
         "explanation": "measuring cup fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "spatula",
-        "aliases": [],
+        "aliases": [
+          "turner"
+        ],
         "popularity": 0,
         "explanation": "spatula fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       }
@@ -3962,7 +4018,9 @@
     "answers": [
       {
         "text": "internet",
-        "aliases": [],
+        "aliases": [
+          "internet connection"
+        ],
         "popularity": 100,
         "explanation": "internet fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -4332,7 +4390,9 @@
       },
       {
         "text": "film club",
-        "aliases": [],
+        "aliases": [
+          "movie club"
+        ],
         "popularity": 30,
         "explanation": "film club fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -4904,7 +4964,9 @@
       },
       {
         "text": "water bottle",
-        "aliases": [],
+        "aliases": [
+          "reusable water bottle"
+        ],
         "popularity": 50,
         "explanation": "water bottle fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -5502,19 +5564,26 @@
     "answers": [
       {
         "text": "camera",
-        "aliases": [],
+        "aliases": [
+          "video camera"
+        ],
         "popularity": 100,
         "explanation": "camera fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "microphone",
-        "aliases": [],
+        "aliases": [
+          "mic",
+          "mike"
+        ],
         "popularity": 90,
         "explanation": "microphone fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "internet",
-        "aliases": [],
+        "aliases": [
+          "internet connection"
+        ],
         "popularity": 55,
         "explanation": "internet fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -5562,13 +5631,19 @@
       },
       {
         "text": "notebook",
-        "aliases": [],
+        "aliases": [
+          "notepad",
+          "notebooks"
+        ],
         "popularity": 75,
         "explanation": "notebook fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "pen",
-        "aliases": [],
+        "aliases": [
+          "pens",
+          "ballpoint pen"
+        ],
         "popularity": 50,
         "explanation": "pen fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -6084,7 +6159,9 @@
       },
       {
         "text": "office hours",
-        "aliases": [],
+        "aliases": [
+          "instructor office hours"
+        ],
         "popularity": 99,
         "explanation": "office hours fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -6210,7 +6287,9 @@
     "answers": [
       {
         "text": "pencil",
-        "aliases": [],
+        "aliases": [
+          "pencils"
+        ],
         "popularity": 100,
         "explanation": "pencil fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -6436,7 +6515,9 @@
       },
       {
         "text": "storyboard",
-        "aliases": [],
+        "aliases": [
+          "storyboards"
+        ],
         "popularity": 90,
         "explanation": "storyboard fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -6474,7 +6555,9 @@
     "answers": [
       {
         "text": "camera",
-        "aliases": [],
+        "aliases": [
+          "video camera"
+        ],
         "popularity": 100,
         "explanation": "camera fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -6870,13 +6953,19 @@
     "answers": [
       {
         "text": "microphone",
-        "aliases": [],
+        "aliases": [
+          "mic",
+          "mike"
+        ],
         "popularity": 100,
         "explanation": "microphone fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "headphones",
-        "aliases": [],
+        "aliases": [
+          "headphone",
+          "headset"
+        ],
         "popularity": 99,
         "explanation": "headphones fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -6958,7 +7047,9 @@
     "answers": [
       {
         "text": "camera",
-        "aliases": [],
+        "aliases": [
+          "video camera"
+        ],
         "popularity": 100,
         "explanation": "camera fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -6970,7 +7061,10 @@
       },
       {
         "text": "microphone",
-        "aliases": [],
+        "aliases": [
+          "mic",
+          "mike"
+        ],
         "popularity": 55,
         "explanation": "microphone fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -7184,7 +7278,10 @@
       },
       {
         "text": "microphone",
-        "aliases": [],
+        "aliases": [
+          "mic",
+          "mike"
+        ],
         "popularity": 95,
         "explanation": "microphone fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -7384,7 +7481,9 @@
       },
       {
         "text": "pencil",
-        "aliases": [],
+        "aliases": [
+          "pencils"
+        ],
         "popularity": 0,
         "explanation": "pencil fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       }
@@ -7504,7 +7603,9 @@
       },
       {
         "text": "pencil",
-        "aliases": [],
+        "aliases": [
+          "pencils"
+        ],
         "popularity": 30,
         "explanation": "pencil fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -7530,7 +7631,10 @@
     "answers": [
       {
         "text": "notebook",
-        "aliases": [],
+        "aliases": [
+          "notepad",
+          "notebooks"
+        ],
         "popularity": 100,
         "explanation": "notebook fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -7586,7 +7690,10 @@
       },
       {
         "text": "notebook",
-        "aliases": [],
+        "aliases": [
+          "notepad",
+          "notebooks"
+        ],
         "popularity": 70,
         "explanation": "notebook fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -7882,13 +7989,18 @@
     "answers": [
       {
         "text": "notebook",
-        "aliases": [],
+        "aliases": [
+          "notepad",
+          "notebooks"
+        ],
         "popularity": 100,
         "explanation": "notebook fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "pencil",
-        "aliases": [],
+        "aliases": [
+          "pencils"
+        ],
         "popularity": 90,
         "explanation": "pencil fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -7900,7 +8012,9 @@
       },
       {
         "text": "camera",
-        "aliases": [],
+        "aliases": [
+          "video camera"
+        ],
         "popularity": 30,
         "explanation": "camera fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -8258,7 +8372,9 @@
       },
       {
         "text": "office hours",
-        "aliases": [],
+        "aliases": [
+          "instructor office hours"
+        ],
         "popularity": 5,
         "explanation": "office hours fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -8422,7 +8538,10 @@
       },
       {
         "text": "notebook",
-        "aliases": [],
+        "aliases": [
+          "notepad",
+          "notebooks"
+        ],
         "popularity": 55,
         "explanation": "notebook fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -8542,7 +8661,9 @@
     "answers": [
       {
         "text": "pencil",
-        "aliases": [],
+        "aliases": [
+          "pencils"
+        ],
         "popularity": 100,
         "explanation": "pencil fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -8856,13 +8977,20 @@
       },
       {
         "text": "academic adviser",
-        "aliases": [],
+        "aliases": [
+          "academic advisor",
+          "adviser",
+          "advisor"
+        ],
         "popularity": 99,
         "explanation": "academic adviser fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "resident adviser",
-        "aliases": [],
+        "aliases": [
+          "resident advisor",
+          "RA"
+        ],
         "popularity": 75,
         "explanation": "resident adviser fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -9038,7 +9166,10 @@
       },
       {
         "text": "notebook",
-        "aliases": [],
+        "aliases": [
+          "notepad",
+          "notebooks"
+        ],
         "popularity": 70,
         "explanation": "notebook fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -9158,13 +9289,17 @@
     "answers": [
       {
         "text": "library",
-        "aliases": [],
+        "aliases": [
+          "campus library"
+        ],
         "popularity": 100,
         "explanation": "library fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "bookstore",
-        "aliases": [],
+        "aliases": [
+          "campus bookstore"
+        ],
         "popularity": 95,
         "explanation": "bookstore fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -9258,7 +9393,9 @@
       },
       {
         "text": "financial aid office",
-        "aliases": [],
+        "aliases": [
+          "financial aid"
+        ],
         "popularity": 75,
         "explanation": "financial aid office fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -10684,7 +10821,10 @@
       },
       {
         "text": "microphone",
-        "aliases": [],
+        "aliases": [
+          "mic",
+          "mike"
+        ],
         "popularity": 0,
         "explanation": "microphone fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       }
@@ -10836,7 +10976,9 @@
       },
       {
         "text": "water bottle",
-        "aliases": [],
+        "aliases": [
+          "reusable water bottle"
+        ],
         "popularity": 99,
         "explanation": "water bottle fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -10848,7 +10990,9 @@
       },
       {
         "text": "napkins",
-        "aliases": [],
+        "aliases": [
+          "napkin"
+        ],
         "popularity": 50,
         "explanation": "napkins fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12080,13 +12224,19 @@
       },
       {
         "text": "notebook",
-        "aliases": [],
+        "aliases": [
+          "notepad",
+          "notebooks"
+        ],
         "popularity": 40,
         "explanation": "notebook fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "headphones",
-        "aliases": [],
+        "aliases": [
+          "headphone",
+          "headset"
+        ],
         "popularity": 5,
         "explanation": "headphones fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12156,7 +12306,9 @@
       },
       {
         "text": "library",
-        "aliases": [],
+        "aliases": [
+          "campus library"
+        ],
         "popularity": 99,
         "explanation": "library fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12306,7 +12458,9 @@
       },
       {
         "text": "internet",
-        "aliases": [],
+        "aliases": [
+          "internet connection"
+        ],
         "popularity": 20,
         "explanation": "internet fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12458,7 +12612,9 @@
     "answers": [
       {
         "text": "laptop",
-        "aliases": [],
+        "aliases": [
+          "laptop computer"
+        ],
         "popularity": 100,
         "explanation": "laptop fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12470,7 +12626,10 @@
       },
       {
         "text": "notebook",
-        "aliases": [],
+        "aliases": [
+          "notepad",
+          "notebooks"
+        ],
         "popularity": 70,
         "explanation": "notebook fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12905,7 +13064,9 @@
     "answers": [
       {
         "text": "camera",
-        "aliases": [],
+        "aliases": [
+          "video camera"
+        ],
         "popularity": 100,
         "explanation": "camera fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12917,7 +13078,10 @@
       },
       {
         "text": "microphone",
-        "aliases": [],
+        "aliases": [
+          "mic",
+          "mike"
+        ],
         "popularity": 55,
         "explanation": "microphone fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12929,13 +13093,18 @@
       },
       {
         "text": "projector",
-        "aliases": [],
+        "aliases": [
+          "video projector"
+        ],
         "popularity": 10,
         "explanation": "projector fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "headphones",
-        "aliases": [],
+        "aliases": [
+          "headphone",
+          "headset"
+        ],
         "popularity": 0,
         "explanation": "headphones fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       }
@@ -12955,7 +13124,9 @@
       },
       {
         "text": "pencil",
-        "aliases": [],
+        "aliases": [
+          "pencils"
+        ],
         "popularity": 99,
         "explanation": "pencil fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },

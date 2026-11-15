@@ -34,7 +34,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 5,
         "explanation": "bell pepper can be used in scrambled eggs with vegetables; recipes may differ."
@@ -138,7 +139,8 @@
         "text": "pretzels",
         "popularity": 76,
         "aliases": [
-          "pretzel twists"
+          "pretzel twists",
+          "pretzel"
         ],
         "explanation": "Dry twists are a crunchy alternative to chips.",
         "scoreRationale": "Dry twists are a crunchy alternative to chips."
@@ -341,7 +343,8 @@
         "text": "scallions",
         "popularity": 38,
         "aliases": [
-          "green onions"
+          "green onions",
+          "spring onions"
         ],
         "explanation": "Sliced scallions supply a sharper onion topping.",
         "scoreRationale": "Sliced scallions supply a sharper onion topping."
@@ -631,7 +634,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 20,
         "explanation": "bell pepper can be used in vegetable omelet; recipes may differ."
@@ -728,7 +732,9 @@
       },
       {
         "text": "walnuts",
-        "aliases": [],
+        "aliases": [
+          "walnut"
+        ],
         "popularity": 0,
         "explanation": "walnuts can be used in apple cinnamon oatmeal; recipes may differ."
       }
@@ -800,13 +806,17 @@
       },
       {
         "text": "blueberries",
-        "aliases": [],
+        "aliases": [
+          "blueberry"
+        ],
         "popularity": 70,
         "explanation": "blueberries can be used in granola parfait; recipes may differ."
       },
       {
         "text": "strawberries",
-        "aliases": [],
+        "aliases": [
+          "strawberry"
+        ],
         "popularity": 40,
         "explanation": "strawberries can be used in granola parfait; recipes may differ."
       },
@@ -876,7 +886,9 @@
     "answers": [
       {
         "text": "potatoes",
-        "aliases": [],
+        "aliases": [
+          "potato"
+        ],
         "popularity": 100,
         "explanation": "potatoes can be used in breakfast hash; recipes may differ."
       },
@@ -889,7 +901,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 75,
         "explanation": "bell pepper can be used in breakfast hash; recipes may differ."
@@ -953,7 +966,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 5,
         "explanation": "bell pepper can be used in egg muffins; recipes may differ."
@@ -1269,7 +1283,9 @@
       },
       {
         "text": "raisins",
-        "aliases": [],
+        "aliases": [
+          "raisin"
+        ],
         "popularity": 0,
         "explanation": "raisins can be used in bran muffins; recipes may differ."
       }
@@ -1285,7 +1301,8 @@
         "text": "eggs",
         "popularity": 100,
         "aliases": [
-          "scrambled eggs"
+          "scrambled eggs",
+          "egg"
         ],
         "explanation": "Cooked eggs provide the familiar breakfast-burrito center.",
         "scoreRationale": "Cooked eggs provide the familiar breakfast-burrito center."
@@ -1294,7 +1311,8 @@
         "text": "potatoes",
         "popularity": 94,
         "aliases": [
-          "breakfast potatoes"
+          "breakfast potatoes",
+          "potato"
         ],
         "explanation": "Cooked potato pieces add a starchy filling.",
         "scoreRationale": "Cooked potato pieces add a starchy filling."
@@ -1619,7 +1637,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 20,
         "explanation": "bell pepper can be used in breakfast quesadilla; recipes may differ."
@@ -1657,7 +1676,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 70,
         "explanation": "bell pepper can be used in shakshuka; recipes may differ."
@@ -1709,7 +1729,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 30,
         "explanation": "bell pepper can be used in tofu scramble; recipes may differ."
@@ -1763,7 +1784,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 20,
         "explanation": "bell pepper can be used in breakfast pizza; recipes may differ."
@@ -2961,7 +2983,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 99,
         "explanation": "chickpeas can be used in chickpea salad sandwich; recipes may differ."
@@ -3031,7 +3054,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 0,
         "explanation": "bell pepper can be used in vegetable wrap; recipes may differ."
@@ -3689,7 +3713,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 5,
         "explanation": "bell pepper can be used in sloppy joe; recipes may differ."
@@ -3823,7 +3848,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 5,
         "explanation": "bell pepper can be used in quesadilla with beans; recipes may differ."
@@ -3869,7 +3895,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 10,
         "explanation": "bell pepper can be used in chicken quesadilla; recipes may differ."
@@ -3951,7 +3978,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 70,
         "explanation": "bell pepper can be used in vegetable panini; recipes may differ."
@@ -4363,7 +4391,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 70,
         "explanation": "bell pepper can be used in primavera pasta; recipes may differ."
@@ -4461,7 +4490,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 50,
         "explanation": "bell pepper can be used in pasta salad; recipes may differ."
@@ -4682,7 +4712,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 55,
         "explanation": "bell pepper can be used in chicken stir-fry; recipes may differ."
@@ -5354,7 +5385,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 90,
         "explanation": "bell pepper can be used in fajitas; recipes may differ."
@@ -5460,7 +5492,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 40,
         "explanation": "bell pepper can be used in vegetarian chili; recipes may differ."
@@ -5576,7 +5609,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 100,
         "explanation": "bell pepper can be used in stuffed bell peppers; recipes may differ."
@@ -5756,7 +5790,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 100,
         "explanation": "chickpeas can be used in chickpea curry; recipes may differ."
@@ -5912,7 +5947,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 30,
         "explanation": "bell pepper can be used in tofu coconut curry; recipes may differ."
@@ -5960,7 +5996,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 50,
         "explanation": "chickpeas can be used in vegetable couscous; recipes may differ."
@@ -5994,7 +6031,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 95,
         "explanation": "chickpeas can be used in quinoa bowl; recipes may differ."
@@ -6042,7 +6080,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 90,
         "explanation": "chickpeas can be used in Mediterranean rice bowl; recipes may differ."
@@ -6468,7 +6507,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 0,
         "explanation": "bell pepper can be used in garden salad; recipes may differ."
@@ -6489,13 +6529,17 @@
       },
       {
         "text": "strawberries",
-        "aliases": [],
+        "aliases": [
+          "strawberry"
+        ],
         "popularity": 99,
         "explanation": "strawberries can be used in spinach strawberry salad; recipes may differ."
       },
       {
         "text": "pecans",
-        "aliases": [],
+        "aliases": [
+          "pecan"
+        ],
         "popularity": 75,
         "explanation": "pecans can be used in spinach strawberry salad; recipes may differ."
       },
@@ -6541,7 +6585,9 @@
       },
       {
         "text": "walnuts",
-        "aliases": [],
+        "aliases": [
+          "walnut"
+        ],
         "popularity": 70,
         "explanation": "walnuts can be used in kale apple salad; recipes may differ."
       },
@@ -6594,7 +6640,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 30,
         "explanation": "chickpeas can be used in quinoa salad; recipes may differ."
@@ -6622,7 +6669,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 100,
         "explanation": "chickpeas can be used in chickpea salad; recipes may differ."
@@ -6682,7 +6730,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 70,
         "explanation": "bell pepper can be used in black bean corn salad; recipes may differ."
@@ -6825,7 +6874,9 @@
       },
       {
         "text": "raisins",
-        "aliases": [],
+        "aliases": [
+          "raisin"
+        ],
         "popularity": 40,
         "explanation": "raisins can be used in broccoli salad; recipes may differ."
       },
@@ -6989,13 +7040,17 @@
     "answers": [
       {
         "text": "strawberries",
-        "aliases": [],
+        "aliases": [
+          "strawberry"
+        ],
         "popularity": 100,
         "explanation": "strawberries can be used in fruit salad; recipes may differ."
       },
       {
         "text": "blueberries",
-        "aliases": [],
+        "aliases": [
+          "blueberry"
+        ],
         "popularity": 90,
         "explanation": "blueberries can be used in fruit salad; recipes may differ."
       },
@@ -7051,7 +7106,9 @@
       },
       {
         "text": "walnuts",
-        "aliases": [],
+        "aliases": [
+          "walnut"
+        ],
         "popularity": 50,
         "explanation": "walnuts can be used in Waldorf salad; recipes may differ."
       },
@@ -7190,7 +7247,9 @@
       },
       {
         "text": "walnuts",
-        "aliases": [],
+        "aliases": [
+          "walnut"
+        ],
         "popularity": 50,
         "explanation": "walnuts can be used in roasted beet salad; recipes may differ."
       },
@@ -7329,7 +7388,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 50,
         "explanation": "bell pepper can be used in vegetable pizza; recipes may differ."
@@ -7660,7 +7720,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 0,
         "explanation": "bell pepper can be used in pizza bagels; recipes may differ."
@@ -8025,7 +8086,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 0,
         "explanation": "bell pepper can be used in corn salsa; recipes may differ."
@@ -8073,7 +8135,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 0,
         "explanation": "bell pepper can be used in mango salsa; recipes may differ."
@@ -8135,7 +8198,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 100,
         "explanation": "chickpeas can be used in hummus; recipes may differ."
@@ -8183,7 +8247,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 100,
         "explanation": "chickpeas can be used in roasted red pepper hummus; recipes may differ."
@@ -8793,7 +8858,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 30,
         "explanation": "bell pepper fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
@@ -9348,13 +9414,17 @@
     "answers": [
       {
         "text": "pretzels",
-        "aliases": [],
+        "aliases": [
+          "pretzel"
+        ],
         "popularity": 100,
         "explanation": "pretzels fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "crackers",
-        "aliases": [],
+        "aliases": [
+          "cracker"
+        ],
         "popularity": 99,
         "explanation": "crackers fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -9372,7 +9442,9 @@
       },
       {
         "text": "raisins",
-        "aliases": [],
+        "aliases": [
+          "raisin"
+        ],
         "popularity": 20,
         "explanation": "raisins fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -9392,25 +9464,33 @@
     "answers": [
       {
         "text": "cookies",
-        "aliases": [],
+        "aliases": [
+          "cookie"
+        ],
         "popularity": 100,
         "explanation": "cookies fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "brownies",
-        "aliases": [],
+        "aliases": [
+          "brownie"
+        ],
         "popularity": 95,
         "explanation": "brownies fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "cupcakes",
-        "aliases": [],
+        "aliases": [
+          "cupcake"
+        ],
         "popularity": 70,
         "explanation": "cupcakes fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "muffins",
-        "aliases": [],
+        "aliases": [
+          "muffin"
+        ],
         "popularity": 40,
         "explanation": "muffins fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -9480,19 +9560,25 @@
     "answers": [
       {
         "text": "measuring cup",
-        "aliases": [],
+        "aliases": [
+          "measuring cups"
+        ],
         "popularity": 100,
         "explanation": "measuring cup fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "measuring spoon",
-        "aliases": [],
+        "aliases": [
+          "measuring spoons"
+        ],
         "popularity": 99,
         "explanation": "measuring spoon fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "kitchen scale",
-        "aliases": [],
+        "aliases": [
+          "food scale"
+        ],
         "popularity": 75,
         "explanation": "kitchen scale fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -9530,13 +9616,17 @@
       },
       {
         "text": "whisk",
-        "aliases": [],
+        "aliases": [
+          "wire whisk"
+        ],
         "popularity": 95,
         "explanation": "whisk fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "spatula",
-        "aliases": [],
+        "aliases": [
+          "turner"
+        ],
         "popularity": 70,
         "explanation": "spatula fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -10096,7 +10186,9 @@
     "answers": [
       {
         "text": "dining hall",
-        "aliases": [],
+        "aliases": [
+          "dining commons"
+        ],
         "popularity": 100,
         "explanation": "dining hall fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -10231,7 +10323,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 100,
         "explanation": "chickpeas fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
@@ -10289,7 +10382,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 75,
         "explanation": "chickpeas fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
@@ -10738,7 +10832,9 @@
       },
       {
         "text": "almonds",
-        "aliases": [],
+        "aliases": [
+          "almond"
+        ],
         "popularity": 40,
         "explanation": "almonds fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -10808,13 +10904,17 @@
     "answers": [
       {
         "text": "blueberries",
-        "aliases": [],
+        "aliases": [
+          "blueberry"
+        ],
         "popularity": 100,
         "explanation": "blueberries fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "strawberries",
-        "aliases": [],
+        "aliases": [
+          "strawberry"
+        ],
         "popularity": 99,
         "explanation": "strawberries fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -10858,7 +10958,9 @@
       },
       {
         "text": "raisins",
-        "aliases": [],
+        "aliases": [
+          "raisin"
+        ],
         "popularity": 95,
         "explanation": "raisins fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -10870,7 +10972,9 @@
       },
       {
         "text": "walnuts",
-        "aliases": [],
+        "aliases": [
+          "walnut"
+        ],
         "popularity": 40,
         "explanation": "walnuts fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -10959,7 +11063,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 50,
         "explanation": "bell pepper fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
@@ -11413,7 +11518,8 @@
       {
         "text": "chickpeas",
         "aliases": [
-          "garbanzo beans"
+          "garbanzo beans",
+          "chickpea"
         ],
         "popularity": 5,
         "explanation": "chickpeas fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
@@ -11754,13 +11860,17 @@
       },
       {
         "text": "potatoes",
-        "aliases": [],
+        "aliases": [
+          "potato"
+        ],
         "popularity": 75,
         "explanation": "potatoes fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "onions",
-        "aliases": [],
+        "aliases": [
+          "onion"
+        ],
         "popularity": 50,
         "explanation": "onions fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12076,7 +12186,9 @@
       },
       {
         "text": "napkins",
-        "aliases": [],
+        "aliases": [
+          "napkin"
+        ],
         "popularity": 5,
         "explanation": "napkins fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12096,13 +12208,17 @@
     "answers": [
       {
         "text": "cookies",
-        "aliases": [],
+        "aliases": [
+          "cookie"
+        ],
         "popularity": 100,
         "explanation": "cookies fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "muffins",
-        "aliases": [],
+        "aliases": [
+          "muffin"
+        ],
         "popularity": 90,
         "explanation": "muffins fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12120,7 +12236,9 @@
       },
       {
         "text": "pretzels",
-        "aliases": [],
+        "aliases": [
+          "pretzel"
+        ],
         "popularity": 10,
         "explanation": "pretzels fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12152,7 +12270,9 @@
       },
       {
         "text": "muffins",
-        "aliases": [],
+        "aliases": [
+          "muffin"
+        ],
         "popularity": 75,
         "explanation": "muffins fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -12961,7 +13081,8 @@
       {
         "text": "bell pepper",
         "aliases": [
-          "bell peppers"
+          "bell peppers",
+          "sweet pepper"
         ],
         "popularity": 20,
         "explanation": "bell pepper fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
@@ -13032,19 +13153,25 @@
       },
       {
         "text": "cupcakes",
-        "aliases": [],
+        "aliases": [
+          "cupcake"
+        ],
         "popularity": 90,
         "explanation": "cupcakes fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "brownies",
-        "aliases": [],
+        "aliases": [
+          "brownie"
+        ],
         "popularity": 55,
         "explanation": "brownies fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
       {
         "text": "cookies",
-        "aliases": [],
+        "aliases": [
+          "cookie"
+        ],
         "popularity": 30,
         "explanation": "cookies fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -13246,7 +13373,9 @@
     "answers": [
       {
         "text": "raisins",
-        "aliases": [],
+        "aliases": [
+          "raisin"
+        ],
         "popularity": 100,
         "explanation": "raisins fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -13402,7 +13531,9 @@
       },
       {
         "text": "cookies",
-        "aliases": [],
+        "aliases": [
+          "cookie"
+        ],
         "popularity": 5,
         "explanation": "cookies fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
@@ -13832,7 +13963,9 @@
       },
       {
         "text": "napkins",
-        "aliases": [],
+        "aliases": [
+          "napkin"
+        ],
         "popularity": 55,
         "explanation": "napkins fits the category or task named in this question. The weight is an editorial game setting, not a student survey."
       },
