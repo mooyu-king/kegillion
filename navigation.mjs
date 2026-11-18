@@ -98,3 +98,35 @@ updatesPause?.addEventListener('click', () => {
   updatesPause.title = paused ? 'Resume updates' : 'Pause updates';
   updatesPause.textContent = paused ? '▶' : 'Ⅱ';
 });
+
+const draftLab = document.querySelector('[data-kabloom-lab]');
+if (draftLab) {
+  draftLab.addEventListener('submit', event => event.preventDefault());
+  draftLab.addEventListener('change', () => {
+    const a = Number(draftLab.elements.first.value);
+    const b = Number(draftLab.elements.second.value);
+    const spendA = a + 4 * b;
+    const saveA = b + 4 * a;
+    const difference = saveA - spendA;
+    const recommendation = difference === 0
+      ? 'Both orders score the same.'
+      : `Saving Pick ${difference > 0 ? 'A' : 'B'} earns ${Math.abs(difference)} more.`;
+    draftLab.querySelector('output').textContent = `A at ×1 and B at ×4: ${spendA} points. B at ×1 and A at ×4: ${saveA} points. ${recommendation}`;
+  });
+}
+
+const draftFullscreen = document.querySelector('[data-kabloom-fullscreen]');
+if (draftFullscreen) {
+  const frame = document.getElementById('kabloom-player');
+  const status = document.querySelector('[data-kabloom-status]');
+  draftFullscreen.hidden = false;
+  draftFullscreen.addEventListener('click', async () => {
+    status.textContent = '';
+    try {
+      if (document.fullscreenElement === frame) await document.exitFullscreen();
+      else await frame.requestFullscreen();
+    } catch {
+      status.textContent = 'Full screen is unavailable here. Open the game in a new tab for more space.';
+    }
+  });
+}

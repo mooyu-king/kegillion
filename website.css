@@ -33,3 +33,49 @@ aside{display:flex;flex-direction:column}.sidebar-note{margin-top:auto;flex-shri
 .header-brand-group{display:flex;align-items:center;gap:14px;min-width:0}.header-sidebar-toggle{display:flex;align-items:center;justify-content:center;width:44px;height:44px;flex:0 0 44px;border:1px solid #d0dbc6;border-radius:10px;background:#f2f5e9;color:#3c5b40;cursor:pointer;box-shadow:0 2px 5px #243f3212}.header-sidebar-toggle:hover{background:#e0e9d5}
 .collection-card{position:relative}.collection-card>.favorite-button{position:absolute;top:12px;right:12px}.favorite-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-width:88px;min-height:44px;padding:10px 12px;background:#fffdf7;border:1px solid #d0d9c5;border-radius:10px;color:#51654b;box-shadow:0 3px 10px #203d3820;font:600 12px Arial,sans-serif;cursor:pointer}.favorite-button[aria-pressed=true]{color:#a33d49;background:#fff1f1;border-color:#d7a5aa}.favorite-button[aria-pressed=true] svg{fill:currentColor}.game-title-row{display:flex;align-items:center;justify-content:space-between;gap:20px}.game-title-row h1{margin-right:auto}.favorites-empty{padding:35px;background:#eaf0e0;border:1px solid #d0ddc5;border-radius:18px}.favorites-empty[hidden]{display:none}.favorite-notice:not(:empty){position:fixed;bottom:20px;right:20px;z-index:40;max-width:min(360px,calc(100vw - 40px));padding:14px 18px;border:1px solid #c4d2b8;border-radius:12px;background:#fffdf7;box-shadow:0 6px 24px #203d3825;font-size:13px}
 @media(max-width:700px){.header-sidebar-toggle{display:none}.header-brand-group{gap:0}.game-title-row{flex-wrap:wrap;gap:8px;margin-bottom:18px}.game-title-row h1{margin-bottom:4px}.favorites-empty{padding:24px}}
+
+/* Kabloom guide uses the shared 16:9 player and game cards. */
+.kabloom-page :is(p, figcaption) {
+  text-align: justify;
+  text-align-last: start;
+  hyphens: auto;
+  overflow-wrap: anywhere;
+  max-width: none;
+}
+.kabloom-reading section {padding: 1.2rem 0; border-bottom: 1px solid #d7dfce}
+.kabloom-reading figure {margin: 1.2rem 0 .4rem}
+.kabloom-reading figure img {
+  display: block; width: 100%; height: auto; max-height: none;
+  object-fit: contain; border-radius: 12px;
+}
+.kabloom-page .kabloom-actions {
+  display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: .65rem;
+}
+.kabloom-actions > :is(a,button) {
+  min-width: 0; min-height: 44px; justify-content: center; text-align: center;
+}
+.kabloom-actions button {
+  color: #203e39; font: inherit; background: #faf9f3;
+  border: 1px solid #c2cfbd; border-radius: 8px; cursor: pointer;
+}
+.kabloom-lab {margin: 1.5rem 0; padding: clamp(1rem,3vw,1.6rem); border-radius: 12px; background: #e6ecdf}
+.kabloom-lab fieldset {
+  display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .75rem;
+  border: 0; margin: 0; padding: .6rem 0;
+}
+.kabloom-lab select {display: block; width: 100%; min-height: 44px; color: inherit; font: inherit}
+.kabloom-lab output {display: block; margin-top: .65rem; font-weight: 600; overflow-wrap: anywhere}
+.kabloom-frame:fullscreen {aspect-ratio: auto; width: 100%; height: 100%; border: 0; border-radius: 0}
+@media(max-width:700px) {
+  .kabloom-page .kabloom-actions {grid-template-columns: repeat(2,minmax(0,1fr))}
+}
+
+:is([data-region="kabloom"],[data-saved-card="kabloom"]) .collection-copy p,
+.home-hero .lead {
+  text-align: justify;
+  text-align-last: start;
+  hyphens: auto;
+  overflow-wrap: anywhere;
+}
+
+.kabloom-nav-icon {object-fit: contain}
