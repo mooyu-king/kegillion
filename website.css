@@ -79,3 +79,37 @@ aside{display:flex;flex-direction:column}.sidebar-note{margin-top:auto;flex-shri
 }
 
 .kabloom-nav-icon {object-fit: contain}
+
+.medical-mode-options {display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; align-items:start}
+.medical-mode-options details {margin:0; background:#fffdf7; border:1px solid #c2cfbd; border-radius:8px}
+.medical-mode-options summary {padding:12px; min-height:44px; cursor:pointer; font-weight:700}
+.medical-mode-options details p {margin:0 12px 12px}
+.medical-krillion .kabloom-actions a {display:flex; align-items:center; gap:.45rem}
+[data-region="medical-krillion"] .collection-copy p,[data-saved-card="medical-krillion"] .collection-copy p {
+  text-align:justify; text-align-last:start; hyphens:auto; overflow-wrap:anywhere
+}
+@media(max-width:520px){.medical-mode-options{grid-template-columns:minmax(0,1fr)}}
+
+.medical-panel {margin:1.5rem 0; padding:clamp(1rem,3vw,1.5rem); background:#fffdf7; border:1px solid #d3ddca; border-radius:14px}
+.medical-controls,.medical-selects {display:grid; grid-auto-flow:column; grid-auto-columns:minmax(0,1fr); gap:.6rem}
+.medical-controls[hidden],.medical-practice[hidden],.medical-slides section[hidden] {display:none}
+.medical-controls button,.medical-selects label,.medical-jumps a {
+  display:flex; align-items:center; justify-content:center; gap:.45rem; min-height:44px; min-width:0;
+  padding:.6rem .75rem; border:1px solid #c2cfbd; border-radius:8px; background:#f4f6ec;
+  color:#203e39; font:inherit; font-weight:600; text-align:center; cursor:pointer
+}
+.medical-controls button[aria-pressed="true"],.medical-selects label:has(:checked) {background:#234838; color:#fff}
+.medical-controls button:focus-visible,.medical-selects label:focus-within,.medical-jumps a:focus-visible {outline:2px solid #466e52; outline-offset:2px}
+.medical-slides figure {margin:.65rem 0 0}
+.medical-slides figure img,.medical-copy figure img {width:100%; height:auto; max-height:none; display:block; border-radius:10px}
+.medical-slides figcaption {margin-top:.55rem; color:#355449}
+.medical-slides h3 {margin:1rem 0 0}
+.medical-practice fieldset {min-width:0; margin:0 0 .9rem; padding:0; border:0}
+.medical-practice legend {margin-bottom:.4rem; font-weight:700}
+.medical-practice input {accent-color:#294f3a}
+.medical-practice output {display:block; margin-top:.75rem; padding:.8rem; border-radius:8px; background:#e6ecdf}
+.medical-jumps {display:flex; flex-wrap:wrap; gap:.6rem; margin:1.5rem 0}
+.medical-krillion [id] {scroll-margin-top:108px}
+@media(max-width:620px){
+  .medical-controls,.medical-selects {grid-auto-flow:row}
+}

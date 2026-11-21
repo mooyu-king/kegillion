@@ -115,10 +115,10 @@ if (draftLab) {
   });
 }
 
-const draftFullscreen = document.querySelector('[data-kabloom-fullscreen]');
-if (draftFullscreen) {
-  const frame = document.getElementById('kabloom-player');
-  const status = document.querySelector('[data-kabloom-status]');
+for (const draftFullscreen of document.querySelectorAll('[data-kabloom-fullscreen], [data-game-fullscreen]')) {
+  const id = draftFullscreen.dataset.gameFullscreen || 'kabloom-player';
+  const frame = document.getElementById(id);
+  const status = document.querySelector(`[data-game-status="${id}"], [data-kabloom-status]`);
   draftFullscreen.hidden = false;
   draftFullscreen.addEventListener('click', async () => {
     status.textContent = '';
@@ -129,4 +129,48 @@ if (draftFullscreen) {
       status.textContent = 'Full screen is unavailable here. Open the game in a new tab for more space.';
     }
   });
+}
+
+const medicalWalkthrough = document.querySelector('[data-medical-walkthrough]');
+if (medicalWalkthrough) {
+  const controls = medicalWalkthrough.querySelector('[data-medical-steps]');
+  const steps = [...controls.querySelectorAll('button')];
+  const status = medicalWalkthrough.querySelector('[data-medical-step-status]');
+  function showMedicalStep(active, announce = true) {
+    for (const step of steps) {
+      const selected = step === active;
+      step.setAttribute('aria-pressed', String(selected));
+      document.getElementById(step.getAttribute('aria-controls')).hidden = !selected;
+    }
+    if (announce) status.textContent = `Showing step ${steps.indexOf(active) + 1}: ${active.textContent.trim()}.`;
+  }
+  showMedicalStep(steps[0], false);
+  controls.hidden = false;
+  for (const step of steps) step.addEventListener('click', () => showMedicalStep(step));
+}
+
+const medicalPractice = document.querySelector('[data-medical-practice]');
+if (medicalPractice) {
+  const result = medicalPractice.querySelector('output');
+  const initial = 'Pick a mode and answer to compare the strategies.';
+  medicalPractice.hidden = false;
+  medicalPractice.addEventListener('submit', event => {
+    event.preventDefault();
+    const mode = medicalPractice.querySelector('input[name=mode]:checked')?.value;
+    const answer = medicalPractice.querySelector('input[name=answer]:checked')?.value;
+    if (!mode || !answer) return;
+    if (answer === 'femur') {
+      result.textContent = 'Try another pick. The femur is a thigh bone, so it falls outside the prompt in either mode.';
+      return;
+    }
+    const rare = mode === 'rare';
+    const lessCommon = answer === 'sclera';
+    const pick = lessCommon ? 'Sclera' : 'Iris';
+    const fitsMode = rare === lessCommon;
+    result.textContent = fitsMode
+      ? `${pick} fits the prompt and suits ${rare ? 'Rare' : 'Crowd'} in this example. Switch modes and check the same answer to see how the goal changes.`
+      : `${pick} fits the prompt. In this example, ${rare ? 'sclera is the less common pick Rare rewards' : 'iris is the more familiar pick Crowd rewards'}.`;
+  });
+  medicalPractice.addEventListener('change', () => { result.textContent = 'Check your pick to see the result for this selection.'; });
+  medicalPractice.addEventListener('reset', () => { result.textContent = initial; });
 }
